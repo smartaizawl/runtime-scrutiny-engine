@@ -1,0 +1,27 @@
+person
+(Id):[(Role)(Biodata: "ph%, gender, dob, miliaryExpYears"   () addnew.)(new.person.jobseligibleFor)]
+
+{ 
+
+New person > watch (user.db registration/update)
+
+}
+
+bool eligibility(job([]), person())
+{
+Person.jobeligibleFor()
+    {
+        Job1 .searchIn (is age === eligibility)
+
+Ilu ilu
+
+
+New job job1
+(
+[base maxAgeCutoff
+ C1- PH<10% ! +t1 days
+ C2- ex mil > 4 years ! +t2 days
+ C3- Female ! +t3 days
+ C2+C3 ! +t2+t3 days
+() UpdateList addnew.]
+)
