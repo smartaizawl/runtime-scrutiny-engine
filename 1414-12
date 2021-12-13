@@ -1,0 +1,49 @@
+Session->person
+(Id):[(Role)(Biodata: "ph%, gender, dob, miliaryExpYears"   () addnew.)(new.person.jobseligibleFor)]
+
+{ 
+
+New person > watch (user.db registration/update)
+
+}
+
+bool eligibilityforAjob(job.EnhancedCategory[category, int], 
+
+person(.category,effectiveAge))
+{
+
+Person.isJobeligibleFor()
+    {
+    Job[1  : s*].searchIn Person 
+        {
+        
+Person.effectiveAge:
+        
+dob+normal_years-UTC_now = 0
+
+        (
+ If EnhancedCategory ? person.category[]
+
+For (.category: + int) . 
+        
+Effective_dob= dob- int
+
+Return effectiveAge years
+
+
+        }. Job.cutoffDate.general + int < person.years
+     
+JC 1 jan 2022
+NormalAge=27 years
+EffectiveAge = 22 years 
+
+New job job1 *s++
+(
+[base maxAgeCutoff
+  category , +int
+ C1- PH<10% ! +t1 days
+ C2- ex mil > 4 years ! +t2 days
+ C3- Female ! +t3 days
+ C2+C3 ! +t2+t3 days
+() UpdateList addnew.]
+)
